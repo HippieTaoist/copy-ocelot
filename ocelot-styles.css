@@ -1,0 +1,24 @@
+/* covers header div that contains header child divs */
+
+header {}
+
+
+/* covers left header */
+
+.header-L {}
+
+
+/* top logo svg */
+
+#top-logo {}
+
+
+/* top tagline svg */
+
+#top-tagline {}
+
+#search {}
+
+.header-R {}
+
+.world-temp-menu {}
