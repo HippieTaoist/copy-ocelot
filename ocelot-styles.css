@@ -1,24 +1,51 @@
 /* covers header div that contains header child divs */
 
-header {}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #05336b;
+    color: #ffffff;
+}
 
 
 /* covers left header */
 
-.header-L {}
+.header-L {
+    border: 5px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 
 /* top logo svg */
 
-#top-logo {}
+#top-logo {
+    display: flex;
+    border: 5px solid salmon;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* top tagline svg */
 
-#top-tagline {}
+#top-tagline img {
+    height: 23px;
+    width: 130px;
+    border: 5px solid red;
+}
 
-#search {}
+#search {
+    border: 5px solid yellow;
+}
 
-.header-R {}
+.header-R {
+    border: 5px solid ivory;
+}
 
-.world-temp-menu {}
+.world-temp-menu {
+    border: 5px solid forestgreen
+}
