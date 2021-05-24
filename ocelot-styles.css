@@ -5,6 +5,7 @@ header {
     justify-content: space-around;
     background-color: #05336b;
     color: #ffffff;
+    align-items: center;
 }
 
 
@@ -39,7 +40,29 @@ header {
 }
 
 #search {
+    display: flex;
+    flex-direction: row;
     border: 5px solid yellow;
+    min-width: 380px;
+    max-width: 380px;
+    height: 38px;
+    background-color: #375c89;
+    color: #05336b;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    align-items: center;
+}
+
+.search-bar {
+    border: 5px solid gold;
+    width: 380px;
+    height: 38px;
+}
+
+.search-select {
+    border: 5px solid wheat;
+    height: 24px;
+    width: 24px;
 }
 
 .header-R {
