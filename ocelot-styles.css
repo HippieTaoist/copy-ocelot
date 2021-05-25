@@ -43,26 +43,32 @@ header {
     display: flex;
     flex-direction: row;
     border: 5px solid yellow;
-    min-width: 380px;
-    max-width: 380px;
     height: 38px;
     background-color: #375c89;
     color: #05336b;
-    border-top-left-radius: 25%;
-    border-bottom-left-radius: 25%;
+    border-radius: 20px;
     align-items: center;
 }
 
 .search-bar {
     border: 5px solid gold;
-    width: 380px;
     height: 38px;
+    background-color: #375c89;
+    color: #ffffff;
+}
+
+.search-bar::placeholder {
+    color: #ffffff;
 }
 
 .search-select {
     border: 5px solid wheat;
     height: 24px;
     width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #ffffff;
 }
 
 .header-R {
@@ -70,5 +76,5 @@ header {
 }
 
 .world-temp-menu {
-    border: 5px solid forestgreen
+    border: 5px solid forestgreen;
 }
