@@ -1,104 +1,111 @@
-/* covers header div that contains header child divs */
-
-header {
-    display: flex;
-    justify-content: space-around;
-    background-color: #05336b;
-    color: #ffffff;
-    align-items: center;
-}
-
-
-/* covers left header */
-
-.header-L {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-
-/* top logo svg */
-
-#top-logo {
-    display: flex;
-    height: 70px;
-    width: 70px;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* top tagline svg */
-
-#top-tagline img {
-    height: 23px;
-    width: 130px;
-}
-
-#search {
-    display: flex;
-    flex-direction: row;
-    height: 38px;
-    background-color: #375c89;
-    color: #05336b;
-    border-radius: 20px;
-    align-items: center;
-}
-
-.search-bar {
-    height: 38px;
-    background-color: #375c89;
-    color: #ffffff;
-    border-radius: 20px;
-}
-
-.search-bar::placeholder {
-    color: #ffffff;
-}
-
-.search-select {
-    height: 24px;
-    width: 24px;
-    /* display: flex;
+            /* covers header div that contains header child divs */
+            
+            header {
+                display: flex;
+                justify-content: space-around;
+                background-color: #05336b;
+                color: #ffffff;
+                align-items: center;
+            }
+            /* covers left header */
+            
+            .header-L {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            /* top logo svg */
+            
+            #top-logo {
+                display: flex;
+                height: 70px;
+                width: 70px;
+                justify-content: center;
+                align-items: center;
+            }
+            /* top tagline svg */
+            
+            #top-tagline img {
+                height: 23px;
+                width: 130px;
+            }
+            
+            #search {
+                display: flex;
+                flex-direction: row;
+                height: 38px;
+                background-color: #375c89;
+                color: #05336b;
+                border-radius: 20px;
+                align-items: center;
+            }
+            
+            .search-bar {
+                height: 38px;
+                background-color: #375c89;
+                color: #ffffff;
+                border-radius: 20px;
+            }
+            
+            .search-bar::placeholder {
+                color: #ffffff;
+            }
+            
+            .search-select {
+                height: 24px;
+                width: 24px;
+                /* display: flex;
     align-items: center;
     justify-content: center; */
-    fill: #ffffff;
-}
-
-.header-R {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.world-temp-menu {
-    width: 143px;
-    height: 46px;
-    fill: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#tri-svg {
-    display: flex;
-    justify-content: right;
-}
-
-#ham-con {
-    width: 66px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hamburger {
-    width: 30px;
-    height: 6px;
-    background-color: #ffffff;
-    margin: 6px;
-}
+                fill: #ffffff;
+            }
+            
+            .header-R {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .world-temp-menu {
+                width: 143px;
+                height: 46px;
+                fill: #ffffff;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            
+            #tri-svg {
+                display: flex;
+                justify-content: right;
+            }
+            
+            #ham-con {
+                width: 66px;
+                height: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .hamburger {
+                width: 30px;
+                height: 6px;
+                background-color: #ffffff;
+                margin: 6px;
+            }
+            
+            .header-menu {
+                display: flex;
+                height: 40px;
+                flex-direction: row;
+                width: 75%;
+                margin: auto;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: #031f40;
+                color: #ffffff;
+                fill: #ffffff;
+            }
