@@ -135,7 +135,7 @@
     
     .top-stories {
         border: green 5px solid;
-        width: 755px;
+        width: min-content;
     }
     
     .ts-headlines {
@@ -198,4 +198,22 @@
     #content-con-R {
         display: flex;
         flex-direction: column;
+        width: auto;
+        /* border: #031f40 5px solid; */
+    }
+    
+    #content-con-R img {
+        border-radius: 25px;
+        /* width: 244px;
+        height: 138px; */
+    }
+    
+    button {
+        color: #ffffff;
+        background-color: #334de4;
+        border-radius: 20%;
+        font-weight: bold;
+        margin: 25px;
+        width: 110px;
+        height: 33px;
     }
