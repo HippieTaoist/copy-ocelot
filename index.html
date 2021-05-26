@@ -73,92 +73,96 @@
         </menu>
     </div>
     <div class="content-con media-link">
-        <!-- .TopStories is to be seperated into two columns under a h3. small stories on right and two divs on left (one for video story and one for headlines texts) Ending with button-left div -->
-        <div class="top-stories">
-            <h3 style="margin: 5px;">Top Stories</h3>
-            <div class="content-box">
-                <!-- left side of content box in a column setting -->
-                <div class="content-box" id="content-box-L">
-                    <div>
-                        <img src="./assets/dangerous-volcano.png" alt="Top Stories" />
-                        <h2>'Most Dangerous Volcano in the Wolrd' Erupts, Leaving at Least 15 Dead</h2>
+        <div id="view-panel">
+            <!-- .TopStories is to be seperated into two columns under a h3. small stories on right and two divs on left (one for video story and one for headlines texts) Ending with button-left div -->
+
+
+
+            <div class="top-stories">
+                <h3 style="margin: 5px;">Top Stories</h3>
+                <div class="content-box">
+                    <!-- left side of content box in a column setting -->
+                    <div class="content-box" id="content-box-L">
+                        <div>
+                            <img src="./assets/dangerous-volcano.png" alt="Top Stories" />
+                            <h2>'Most Dangerous Volcano in the Wolrd' Erupts, Leaving at Least 15 Dead</h2>
+                        </div>
+                        <div class="content-box headlines">
+
+                            <div id="ts-div-1"></div>
+                            <div style="display: flex; flex-direction: row;">
+                                <div class="vid-svg">
+                                    <svg height=20px width=20px class="ContentMedia--listItemIcon--27AMK Icon--icon--2AbGu" set="nav" name="video-stroke" data-testid="Icon" aria-hidden="true" role="img" viewBox="0 0 24 24"><title>Video</title><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 1.5A8.504 8.504 0 003.5 12c0 4.692 3.808 8.5 8.5 8.5s8.5-3.808 8.5-8.5-3.808-8.5-8.5-8.5zm-2 12v-7a.5.5 0 01.8-.4l4.67 3.5c.27.2.27.6 0 .8l-4.67 3.5a.5.5 0 01-.8-.4z" fill="currentColor"></path></svg>
+                                </div>
+                                <div class="head-text">
+                                    <a href="https://weather.com/news/weather/video/birds-eye-view-of-rocket-launch">Caught on Camera: Rocket Launch as Seen From Plane</a>
+                                </div>
+                            </div>
+                            <div id="ts-div-2"></div>
+
+                            <div style="display: flex; flex-direction: row;">
+                                <div class="vid-svg">
+                                    <svg height=20px width=20px class="ContentMedia--listItemIcon--27AMK Icon--icon--2AbGu" set="nav" name="video-stroke" data-testid="Icon" aria-hidden="true" role="img" viewBox="0 0 24 24"><title>Video</title><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 1.5A8.504 8.504 0 003.5 12c0 4.692 3.808 8.5 8.5 8.5s8.5-3.808 8.5-8.5-3.808-8.5-8.5-8.5zm-2 12v-7a.5.5 0 01.8-.4l4.67 3.5c.27.2.27.6 0 .8l-4.67 3.5a.5.5 0 01-.8-.4z" fill="currentColor"></path></svg>
+                                </div>
+                                <div class="head-text">
+                                    <a href="https://weather.com/news/weather/video/what-were-watching-in-this-weeks-weather"> What we're watching in this weeks weather</a></div>
+                            </div>
+                            <div id="ts-div-3"></div>
+                            <div style="display: flex; flex-direction: row;">
+                                <div class="vid-svg">
+                                    <svg height=20px width=20px class="ContentMedia--listItemIcon--27AMK Icon--icon--2AbGu" set="nav" name="video-stroke" data-testid="Icon" aria-hidden="true" role="img" viewBox="0 0 24 24"><title>Video</title><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 1.5A8.504 8.504 0 003.5 12c0 4.692 3.808 8.5 8.5 8.5s8.5-3.808 8.5-8.5-3.808-8.5-8.5-8.5zm-2 12v-7a.5.5 0 01.8-.4l4.67 3.5c.27.2.27.6 0 .8l-4.67 3.5a.5.5 0 01-.8-.4z" fill="currentColor"></path></svg>
+                                </div>
+                                <div class="head-text">
+                                    <a hreff="https://weather.com/news/weather/video/early-season-heat-in-the-east-likely-to-break-records">Parts of Eastern US could approach triple digit heat.</a>
+                                </div>
+                            </div>
+                            <div id="ts-div-4"></div>
+                            <div class="ts-headlines">
+                                <div class="vid-svg">
+                                    <svg height=20px width=20px class="ContentMedia--listItemIcon--27AMK Icon--icon--2AbGu" set="nav" name="video-stroke" data-testid="Icon" aria-hidden="true" role="img" viewBox="0 0 24 24"><title>Video</title><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 1.5A8.504 8.504 0 003.5 12c0 4.692 3.808 8.5 8.5 8.5s8.5-3.808 8.5-8.5-3.808-8.5-8.5-8.5zm-2 12v-7a.5.5 0 01.8-.4l4.67 3.5c.27.2.27.6 0 .8l-4.67 3.5a.5.5 0 01-.8-.4z" fill="currentColor"></path></svg>
+                                </div>
+                                <div class="head-text">
+                                    <a href="https://weather.com/news/weather/video/early-season-heat-in-the-east-likely-to-break-records">Parts of Eastern US could approach triple digit heat.</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="content-box headlines">
-
-                        <div id="ts-div-1"></div>
-                        <div style="display: flex; flex-direction: row;">
-                            <div class="vid-svg">
-                                <svg height=20px width=20px class="ContentMedia--listItemIcon--27AMK Icon--icon--2AbGu" set="nav" name="video-stroke" data-testid="Icon" aria-hidden="true" role="img" viewBox="0 0 24 24"><title>Video</title><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 1.5A8.504 8.504 0 003.5 12c0 4.692 3.808 8.5 8.5 8.5s8.5-3.808 8.5-8.5-3.808-8.5-8.5-8.5zm-2 12v-7a.5.5 0 01.8-.4l4.67 3.5c.27.2.27.6 0 .8l-4.67 3.5a.5.5 0 01-.8-.4z" fill="currentColor"></path></svg>
-                            </div>
-                            <div class="head-text">
-                                <a href="https://weather.com/news/weather/video/birds-eye-view-of-rocket-launch">Caught on Camera: Rocket Launch as Seen From Plane</a>
-                            </div>
+                    <div class="content-box" id="content-con-R">
+                        <div id="ts-rc-1">
+                            <a href="https://weather.com/news/weather/video/cold-weather-blamed-in-deaths-of-21-ultramarathon-runners-in-china-2">
+                                <div>
+                                    <img src="./assets/ChinaMarathonDeaths.jpg" alt="Top Stories" />
+                                </div>
+                                <div>
+                                    <caption>21 Runners Die After Extreme Weather Strikes Marathon</caption>
+                                </div>
+                            </a>
                         </div>
-                        <div id="ts-div-2"></div>
-
-                        <div style="display: flex; flex-direction: row;">
-                            <div class="vid-svg">
-                                <svg height=20px width=20px class="ContentMedia--listItemIcon--27AMK Icon--icon--2AbGu" set="nav" name="video-stroke" data-testid="Icon" aria-hidden="true" role="img" viewBox="0 0 24 24"><title>Video</title><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 1.5A8.504 8.504 0 003.5 12c0 4.692 3.808 8.5 8.5 8.5s8.5-3.808 8.5-8.5-3.808-8.5-8.5-8.5zm-2 12v-7a.5.5 0 01.8-.4l4.67 3.5c.27.2.27.6 0 .8l-4.67 3.5a.5.5 0 01-.8-.4z" fill="currentColor"></path></svg>
-                            </div>
-                            <div class="head-text">
-                                <a href="https://weather.com/news/weather/video/what-were-watching-in-this-weeks-weather"> What we're watching in this weeks weather</a></div>
+                        <div id="ts-rc-2">
+                            <a href="https://weather.com/science/space/video/supermoon-total-lunar-eclipse-coming-this-month">
+                                <div>
+                                    <img src="./assets/512totallunareclipse.jpg" alt="Top Stories" />
+                                </div>
+                                <div>
+                                    <caption>Get Ready: First Total Lunar Eclipse Since 2019 Is This Week</caption>
+                                </div>
+                            </a>
                         </div>
-                        <div id="ts-div-3"></div>
-                        <div style="display: flex; flex-direction: row;">
-                            <div class="vid-svg">
-                                <svg height=20px width=20px class="ContentMedia--listItemIcon--27AMK Icon--icon--2AbGu" set="nav" name="video-stroke" data-testid="Icon" aria-hidden="true" role="img" viewBox="0 0 24 24"><title>Video</title><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 1.5A8.504 8.504 0 003.5 12c0 4.692 3.808 8.5 8.5 8.5s8.5-3.808 8.5-8.5-3.808-8.5-8.5-8.5zm-2 12v-7a.5.5 0 01.8-.4l4.67 3.5c.27.2.27.6 0 .8l-4.67 3.5a.5.5 0 01-.8-.4z" fill="currentColor"></path></svg>
-                            </div>
-                            <div class="head-text">
-                                <a hreff="https://weather.com/news/weather/video/early-season-heat-in-the-east-likely-to-break-records">Parts of Eastern US could approach triple digit heat.</a>
-                            </div>
-                        </div>
-                        <div id="ts-div-4"></div>
-                        <div class="ts-headlines">
-                            <div class="vid-svg">
-                                <svg height=20px width=20px class="ContentMedia--listItemIcon--27AMK Icon--icon--2AbGu" set="nav" name="video-stroke" data-testid="Icon" aria-hidden="true" role="img" viewBox="0 0 24 24"><title>Video</title><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 1.5A8.504 8.504 0 003.5 12c0 4.692 3.808 8.5 8.5 8.5s8.5-3.808 8.5-8.5-3.808-8.5-8.5-8.5zm-2 12v-7a.5.5 0 01.8-.4l4.67 3.5c.27.2.27.6 0 .8l-4.67 3.5a.5.5 0 01-.8-.4z" fill="currentColor"></path></svg>
-                            </div>
-                            <div class="head-text">
-                                <a href="https://weather.com/news/weather/video/early-season-heat-in-the-east-likely-to-break-records">Parts of Eastern US could approach triple digit heat.</a>
-                            </div>
+                        <div id="ts-rc-3">
+                            <a href="https://weather.com/news/trending/video/famed-darwins-arch-collapses-in-galapagos-islands">
+                                <div>
+                                    <img src="./assets/521arch2.jpg" alt="Top Stories" />
+                                </div>
+                                <div>
+                                    <caption>Famed Darwin's Arch Collapes in Galapagos Islands</caption>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div id="content-con-R ">
-                    <div class="content-box" id="ts-rc-1">
-                        <a href="https://weather.com/news/weather/video/cold-weather-blamed-in-deaths-of-21-ultramarathon-runners-in-china-2">
-                            <div>
-                                <img src="./assets/ChinaMarathonDeaths.jpg" alt="Top Stories" />
-                            </div>
-                            <div>
-                                <caption>21 Runners</caption>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="content-box" id="ts-rc-1">
-                        <a href="https://weather.com/science/space/video/supermoon-total-lunar-eclipse-coming-this-month">
-                            <div>
-                                <img src="./assets/512totallunareclipse.jpg" alt="Top Stories" />
-                            </div>
-                            <div>
-                                <caption>Get Ready: First Total Lunar Eclipse Since 2019 Is This Week</caption>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="content-box" id="ts-rc-1">
-                        <a href="https://weather.com/news/trending/video/famed-darwins-arch-collapses-in-galapagos-islands">
-                            <div>
-                                <img src="./assets/521arch2.jpg" alt="Top Stories" />
-                            </div>
-                            <div>
-                                <caption>Famed Darwin's Arch Collapes in Galapagos Islands</caption>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                <a href="https://weather.com/news"><button>More Stories</button></a>
             </div>
-            <a href="#">ksjhdkhsakfda</a>
         </div>
-
     </div>
 
 
